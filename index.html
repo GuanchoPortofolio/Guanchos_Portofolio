@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
         content="Juan Antonio Núñez López — Arquitecto. Diseño residencial y comercial, dirección de obra y consultoría arquitectónica." />
-    <meta name="theme-color" content="#1a1a1a">
+    <!-- Updated theme color to matches new dark theme -->
+    <meta name="theme-color" content="#0a0a0a">
     
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,10 +54,10 @@
                     <span class="hero-title-line">Arquitectura</span>
                     <span class="hero-title-line">que trasciende</span>
                 </h1>
-                <p class="hero-lead">Diseño atemporal, funcionalidad y estética en perfecta armonía.</p>
+                <p class="hero-lead">Diseño atemporal donde la funcionalidad encuentra su máxima expresión estética. Creando espacios que inspiran y perduran.</p>
                 <div class="hero-actions">
-                    <a class="btn primary" href="#portfolio">Ver Proyectos</a>
-                    <a class="btn secondary" href="#contact">Contactar</a>
+                    <a class="btn primary" href="#portfolio">Ver Portfolio</a>
+                    <a class="btn secondary" href="#contact">Hablemos</a>
                 </div>
             </div>
         </section>
@@ -64,27 +65,25 @@
         <section id="services" class="section services">
             <div class="container">
                 <div class="section-header fade-in-up">
-                    <h2 class="section-title">Servicios</h2>
-                    <p class="section-subtitle">Soluciones integrales de arquitectura y diseño</p>
+                    <span class="section-badge">Lo que hago</span>
+                    <h2 class="section-title">Servicios Integrales</h2>
+                    <p class="section-subtitle">Excelencia técnica y creativa en cada fase</p>
                 </div>
                 <div class="services-grid">
                     <article class="service-card fade-in-up delay-100">
                         <div class="service-icon">📐</div>
                         <h3 class="service-title">Diseño Arquitectónico</h3>
-                        <p class="service-desc">Planificación y diseño de espacios residenciales y comerciales,
-                            enfocados en la experiencia del usuario y la sostenibilidad.</p>
+                        <p class="service-desc">Planificación conceptual y ejecutiva de espacios residenciales y comerciales, fusionando la visión del cliente con innovación espacial.</p>
                     </article>
                     <article class="service-card fade-in-up delay-200">
                         <div class="service-icon">🏗️</div>
                         <h3 class="service-title">Dirección de Obra</h3>
-                        <p class="service-desc">Supervisión técnica rigurosa para asegurar que la ejecución cumpla con
-                            los estándares de calidad y el diseño proyectado.</p>
+                        <p class="service-desc">Supervisión técnica rigurosa. Aseguramos que cada detalle constructivo cumpla con los más altos estándares de calidad.</p>
                     </article>
                     <article class="service-card fade-in-up delay-300">
                         <div class="service-icon">✨</div>
-                        <h3 class="service-title">Interiorismo & Remodelación</h3>
-                        <p class="service-desc">Transformación de espacios existentes para maximizar su potencial,
-                            funcionalidad y belleza estética.</p>
+                        <h3 class="service-title">Interiorismo</h3>
+                        <p class="service-desc">Curaduría de materiales, iluminación y mobiliario para crear atmósferas que evocan emociones y mejoran la habitabilidad.</p>
                     </article>
                 </div>
             </div>
@@ -93,29 +92,43 @@
         <section id="portfolio" class="section portfolio">
             <div class="container">
                 <div class="section-header fade-in-up">
+                    <span class="section-badge">Mi Trabajo</span>
                     <h2 class="section-title">Proyectos Destacados</h2>
-                    <p class="section-subtitle">Una selección de obras recientes</p>
+                    <p class="section-subtitle">Una colección de espacios curados</p>
                 </div>
-                <div class="portfolio-grid">
-                    <article class="portfolio-item fade-in-up delay-100">
-                        <img src="Apartment.jpg" alt="Diseño de Apartamento Residencial" loading="lazy">
-                        <div class="portfolio-overlay">
-                            <h3>Residencia Moderna</h3>
-                            <p>Diseño Interior</p>
+                <!-- New Gallery Grid Structure -->
+                <div class="portfolio-gallery">
+                    <article class="gallery-item item-large fade-in-up delay-100">
+                        <div class="gallery-img-wrapper">
+                            <img src="Apartment.jpg" alt="Diseño de Apartamento Residencial" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-info">
+                            <span class="project-cat">Interiorismo</span>
+                            <h3 class="project-title">Residencia Moderna</h3>
+                            <p class="project-desc">Renovación integral enfocada en luz natural y materiales nobles.</p>
                         </div>
                     </article>
-                    <article class="portfolio-item fade-in-up delay-200">
-                        <img src="House.jpg" alt="Fachada de Casa Moderna" loading="lazy">
-                        <div class="portfolio-overlay">
-                            <h3>Casa de Campo</h3>
-                            <p>Arquitectura Residencial</p>
+                    <article class="gallery-item item-tall fade-in-up delay-200">
+                        <div class="gallery-img-wrapper">
+                            <img src="House.jpg" alt="Fachada de Casa Moderna" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-info">
+                            <span class="project-cat">Residencial</span>
+                            <h3 class="project-title">Casa de Campo</h3>
+                            <p class="project-desc">Arquitectura vernácula con un toque contemporáneo.</p>
                         </div>
                     </article>
-                    <article class="portfolio-item fade-in-up delay-300">
-                        <img src="House2.jpg" alt="Visualización 3D de Vivienda" loading="lazy">
-                        <div class="portfolio-overlay">
-                            <h3>Villa Minimalista</h3>
-                            <p>Visualización 3D</p>
+                    <article class="gallery-item item-normal fade-in-up delay-300">
+                        <div class="gallery-img-wrapper">
+                            <img src="House2.jpg" alt="Visualización 3D de Vivienda" loading="lazy">
+                        </div>
+                        <div class="gallery-overlay"></div>
+                        <div class="gallery-info">
+                            <span class="project-cat">Visualización 3D</span>
+                            <h3 class="project-title">Villa Minimalista</h3>
+                            <p class="project-desc">Exploración de volúmenes puros en entorno costero.</p>
                         </div>
                     </article>
                 </div>
@@ -124,22 +137,69 @@
 
         <section id="contact" class="section contact">
             <div class="container">
-                <div class="contact-wrapper fade-in-up">
-                    <div class="contact-info">
-                        <h2 class="section-title">Hablemos de su proyecto</h2>
-                        <p class="contact-lead">Estoy disponible para nuevas consultas y colaboraciones. Cuénteme sobre
-                            su visión.</p>
-                        <ul class="contact-details">
-                            <li>
-                                <span class="icon">📞</span>
-                                <a href="tel:+18099664860">809-966-4860</a>
-                            </li>
-                            <li>
-                                <span class="icon">💬</span>
-                                <a href="https://wa.me/18099664860" target="_blank" rel="noopener">WhatsApp Directo</a>
-                            </li>
-                        </ul>
-                        <button id="schedule-btn" class="btn primary">Agendar Cita</button>
+                <div class="contact-layout">
+                    <div class="contact-info fade-in-up">
+                        <span class="section-badge">Contacto</span>
+                        <h2 class="section-title">Inicie su Proyecto</h2>
+                        <p class="contact-lead">Estoy listo para escuchar su visión y transformarla en realidad. Complete el formulario o contácteme directamente.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="method-item">
+                                <span class="method-icon">📞</span>
+                                <div>
+                                    <span class="method-label">Línea Directa</span>
+                                    <a href="tel:+18099664860" class="method-link">809-966-4860</a>
+                                </div>
+                            </div>
+                            <div class="method-item">
+                                <span class="method-icon">✉️</span>
+                                <div>
+                                    <span class="method-label">Email</span>
+                                    <a href="mailto:juan.ant772@gmail.com" class="method-link">juan.ant772@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="method-item">
+                                <span class="method-icon">💬</span>
+                                <div>
+                                    <span class="method-label">WhatsApp</span>
+                                    <a href="https://wa.me/18099664860" target="_blank" class="method-link">Escribir Mensaje</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- New Functional Form -->
+                    <div class="contact-form-wrapper fade-in-up delay-200">
+                        <form action="https://formsubmit.co/juan.ant772@gmail.com" method="POST" class="main-contact-form">
+                            <!-- Anti-spam honeypot -->
+                            <input type="text" name="_honey" style="display:none">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_subject" value="Nuevo Mensaje del Portafolio">
+
+                            <div class="form-grid">
+                                <div class="input-group">
+                                    <label for="name">Nombre</label>
+                                    <input type="text" id="name" name="name" required placeholder="Su nombre completo">
+                                </div>
+                                <div class="input-group">
+                                    <label for="email">Correo Electrónico</label>
+                                    <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
+                                </div>
+                            </div>
+                            
+                            <div class="input-group">
+                                <label for="phone">Teléfono (Opcional)</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 809...">
+                            </div>
+
+                            <div class="input-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Cuénteme los detalles de su proyecto..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn primary full-width">Enviar Mensaje</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -148,58 +208,24 @@
 
     <footer class="site-footer">
         <div class="container footer-inner">
-            <div class="footer-brand">
-                <span class="footer-name">Juan Núñez López</span>
-                <span class="footer-role">Arquitecto</span>
+            <div class="footer-col">
+                <div class="footer-brand">
+                    <span class="footer-name">Juan Núñez López</span>
+                    <span class="footer-role">Arquitecto</span>
+                </div>
+                <p class="copyright">© <span id="year"></span> Juan Núñez López.<br>Todos los derechos reservados.</p>
             </div>
-            <p class="copyright">© <span id="year"></span>. Todos los derechos reservados.</p>
-            <p class="made-with-love">Made with <span class="heart">♥</span> by Juan Núñez</p>
+        </div>
+    
+        <div class="domination-signature" style="text-align: center; margin-top: 3rem; font-family: sans-serif; font-size: 0.75rem; color: #444;">
+            Made by <span style="font-weight: 800; text-transform: uppercase; letter-spacing: 1px; background: linear-gradient(90deg, #d53369, #daae51); -webkit-background-clip: text; -webkit-text-fill-color: transparent;">Domination</span>
         </div>
     </footer>
 
-    <a href="https://wa.me/18099664860?text=Hola%20Juan,%20me%20interesa%20un%20proyecto" class="floating-whatsapp"
+    <a href="https://wa.me/18099664860?text=Hola%20Juan,%20quisiera%20cotizar..." class="floating-whatsapp"
         target="_blank" rel="noopener" aria-label="Contactar por WhatsApp">
         <img src="Whatsapp.png" alt="WhatsApp" width="32" height="32">
     </a>
-
-    <!-- Schedule Modal -->
-    <div id="schedule-modal" class="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-title">
-        <div class="modal-overlay" data-modal-close></div>
-        <div class="modal-container">
-            <header class="modal-header">
-                <h3 id="modal-title">Agendar Cita</h3>
-                <button class="modal-close" data-modal-close aria-label="Cerrar">&times;</button>
-            </header>
-            <form id="schedule-form" class="modal-form">
-                <div class="form-group">
-                    <label for="sched-name">Nombre Completo</label>
-                    <input id="sched-name" name="name" type="text" required placeholder="Su nombre">
-                </div>
-                <div class="form-group">
-                    <label for="sched-phone">Teléfono</label>
-                    <input id="sched-phone" name="phone" type="tel" placeholder="000-000-0000">
-                </div>
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="sched-date">Fecha</label>
-                        <input id="sched-date" name="date" type="date" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="sched-time">Hora</label>
-                        <input id="sched-time" name="time" type="time" required>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="sched-msg">Detalles del Proyecto</label>
-                    <textarea id="sched-msg" name="message" rows="4" placeholder="Breve descripción..."></textarea>
-                </div>
-                <div class="modal-actions">
-                    <button type="button" class="btn text" data-modal-close>Cancelar</button>
-                    <button type="submit" class="btn primary">Enviar Solicitud</button>
-                </div>
-            </form>
-        </div>
-    </div>
 
     <script src="script.js"></script>
 </body>
